@@ -104,7 +104,7 @@ describe('reducer', () => {
             }
         }));
     });
-    
+
     it('removes hasVoted on SET_STATE if pair changes', () => {
         const initialState = fromJS({
             vote: {
